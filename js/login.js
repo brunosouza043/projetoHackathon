@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     button.addEventListener("click", function(e) {
         if (inputEmail.value == window.localStorage.getItem('email') && inputSenha.value == window.localStorage.getItem('senha')) {
             alert("Login concluído");
+            window.location.href = "./../index.html";
         } else {
             alert("Confira os dados.")
         }
