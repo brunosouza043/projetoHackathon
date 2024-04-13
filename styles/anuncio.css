@@ -27,11 +27,6 @@ main {
     text-align: center;
 }
 
-.direcao {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
 
 footer{
     display: grid;
