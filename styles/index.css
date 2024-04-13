@@ -1,0 +1,36 @@
+.text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos button {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.produtos button:hover {
+    background-color: white;
+    color: rgb(21, 211, 21);
+
+
+}
+
+footer {
+    background-color: rgb(6, 237, 6);
+    height: 80px;
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
