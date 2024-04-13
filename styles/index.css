@@ -42,3 +42,11 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
+.container-fluid{
+    background-color: green;
+}
+
+.navbar{
+    padding: 0%;
+}
