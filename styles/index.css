@@ -8,7 +8,7 @@
 
 .text {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .produtos {
@@ -19,24 +19,28 @@
 }
 
 .produtos button {
-    width: 220px;
-    height: 40px;
+    width: 60vw;
+    height: 12vh;
     border: none;
     border-radius: 10px;
     background-color: green;
     color: white;
+    border: 1px solid rgb(21, 211, 21);
+}
+
+#img{
+    width: 100vw;
+    height: 70vh;
 }
 
 .produtos button:hover {
     background-color: white;
     color: rgb(21, 211, 21);
-
-
 }
 
 footer {
-    background-color: rgb(6, 237, 6);
-    height: 80px;
+    background-color: green;
+    height: 20vh;
     text-align: center;
     display: grid;
     justify-content: space-around;
@@ -49,4 +53,9 @@ footer {
 
 .navbar{
     padding: 0%;
+}
+@media (min-width: 390px) and (max-width: 428px){
+    .produtos button {
+    width: 45vw;
+    }
 }

@@ -24,7 +24,14 @@ body{
 }
 .box{
     display: flex;
-    width: 930px;
+    flex-direction: column;
+}
+img{
+    width: 55vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 8vh;
 }
 .img-box{
     background-color: rgba(255, 255, 255, 0.5);
